@@ -1,0 +1,73 @@
+.react-select-component{
+
+  border-bottom: 1px solid $gray;
+  background-color: transparent;
+
+  &.is-focused:not(.is-open) > .Select-control {
+    border: none;
+    border-bottom: none;
+    box-shadow: none;
+    background-color: transparent !important;
+  }
+
+  &.is-open > .Select-control {
+    background-color: transparent !important;
+  }
+
+  &.valid{
+    border-bottom: 1px solid $purple !important;
+    box-shadow: 0 1px 0 0 $purple !important;
+  }
+
+  +.error-message {
+    margin-top: 0;
+  }
+
+  .Select-control {
+    border: none;
+    margin-top: 0.4em;
+    border-radius: 0px;
+    background-color: transparent;
+
+    .Select-arrow {
+      border-color: $gray transparent transparent;
+    }
+
+    .Select-item {
+      background-color: lighten($purple, 40);
+      border-color: lighten($purple, 10);
+      color: $purple;
+      padding: 0.4em;
+
+      .Select-item-icon {
+        border-right: 1px solid $purple;
+        border-radius: 0px;
+
+        &:hover {
+          background-color: lighten($purple, 40);
+          color: $purple;
+        }
+      }
+    }
+  }
+
+  .Select-control:hover {
+    cursor: pointer;
+  }
+
+  .Select-menu-outer {
+    border-radius: 0px;
+    background-color: #fff;
+
+
+    .Select-option {
+      color: $purple;
+      padding: 12px 10px;
+    }
+
+    .Select-option.is-focused {
+      background-color: $hover-color;
+      color: $purple;
+    }
+  }
+}

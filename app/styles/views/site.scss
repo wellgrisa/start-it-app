@@ -1,0 +1,67 @@
+.site{
+  nav{
+    position: fixed;
+    z-index: 99;
+    .brand-logo{
+      height: inherit;
+      display: flex;
+      align-items: center;
+    }
+    img{
+      height: 50px;
+    }
+    ul a{
+      color: $purple;
+    }
+  }
+  .container {
+    .header {
+      color: $purple !important;
+    }
+  }
+
+  .parallax {
+    img {
+      display: block;
+    }
+  }
+
+  .parallax-container{
+    width: 100%;
+    height: 100%;
+    .section{
+      height:100%;
+      .container{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        h4{
+          text-shadow: 1px 1px 1px white, 1px 1px 0px white, 1px 0px 0px white;
+        }
+      }
+    }
+  }
+
+  .page-footer {
+    margin-top: none;
+    padding-top: none;
+    padding: 5px;
+    text-align: center;
+    background-color: $purple;
+    color: white;
+  }
+
+  .modal-content{
+    padding: 0px;
+    .row{
+      margin-bottom: 0px;
+    }
+  }
+  .modal-footer{
+    .btn-flat {
+      color: $purple !important;
+    }
+  }
+}

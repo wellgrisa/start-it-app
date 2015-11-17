@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Soho Gothic Pro Bold'; /*a name to be used later*/
+  src: url('./fonts/SohoGothicPro-Bold.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Soho Gothic Pro Light'; /*a name to be used later*/
+  src: url('./fonts/SohoGothicPro-Light.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Soho Gothic Pro Regular'; /*a name to be used later*/
+  src: url('./fonts/SohoGothicPro-Regular.otf'); /*URL to font*/
+}
+
+html body{
+  font-family: 'Soho Gothic Pro Regular';
+
+  .header-message{
+    top: 30px;
+    position: relative;
+    h5 {
+      text-align: center;
+    }
+  }
+
+  .gray-label{
+    color: $gray;
+  }
+
+  .green-label{
+    color: $green;
+  }
+
+  .yellow-label{
+    color: #AFAF1F;
+  }
+
+  .red-label{
+    color: red;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+}

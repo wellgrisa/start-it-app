@@ -1,0 +1,28 @@
+.health{
+
+  .container{
+    .row{
+      margin-bottom: 0.75rem;
+
+      .health-details{
+        position: relative;
+        top: 25px;
+        .select-info{
+
+          .padding-horizontal-0{
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+
+          .padding-right-0{
+            padding-right: 0px;
+          }
+
+          .margin-35{
+            margin-bottom: 35px;
+          }
+        }
+      }
+    }
+  }
+}
