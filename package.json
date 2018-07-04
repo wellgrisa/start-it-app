@@ -6,7 +6,9 @@
   "scripts": {
     "express": "node ./lib",
     "start": "./node_modules/.bin/webpack-dev-server --inline --watch-poll --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Well",
   "license": "ISC",
@@ -37,7 +39,7 @@
   },
   "dependencies": {
     "axios": "^0.5.4",
-    "babel": "^5.8.23",
+    "babel": "^6.0.0",
     "ejs": "^2.3.3",
     "express": "^4.13.3",
     "flux": "^2.1.1",
@@ -48,6 +50,8 @@
     "react": "^0.13.3",
     "react-favicon": "0.0.3",
     "react-router": "^0.13.0",
-    "react-select": "^0.6.11"
-  }
+    "react-select": "^0.6.11",
+    "snyk": "^1.88.1"
+  },
+  "snyk": true
 }
