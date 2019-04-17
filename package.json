@@ -42,7 +42,7 @@
     "express": "^4.13.3",
     "flux": "^2.1.1",
     "harmony-reflect": "^1.4.2",
-    "jquery": "^2.1.4",
+    "jquery": "^3.4.0",
     "keymirror": "^0.1.1",
     "morgan": "^1.6.1",
     "react": "^0.13.3",
